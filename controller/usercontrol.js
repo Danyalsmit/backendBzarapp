@@ -1,5 +1,5 @@
 
-const jwtSecret = process.env.JWT_SECRET || "key"; // Use a default value if not provided in the environment
+const jwtSecret = process.env.JWT_SECRET || "key"; 
 
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
